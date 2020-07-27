@@ -1,1 +1,1 @@
-# pages_demo
+# pages-demo
